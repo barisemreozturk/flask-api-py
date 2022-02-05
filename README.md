@@ -1,5 +1,5 @@
 # flask-api-py
-=======
+
 docker build -t *tag name .
 
 docker run -d -p 5000:5000 tag name
