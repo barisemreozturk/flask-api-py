@@ -7,7 +7,7 @@ app = flask.Flask(__name__)
 
 @app.route('/', methods=['GET'])
 def home():
-    name_surname = {'name': 'Baris Emre', 'surname': 'Ozturk'}
+    name_surname = {'name': 'B.Emre', 'surname': 'Ozturk'}
     home_page = json.dumps(name_surname)
     return home_page
 
