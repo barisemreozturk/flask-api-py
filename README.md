@@ -1,6 +1,6 @@
 *Girilen şehrin hava durumunu gösteren Web API.
 
-*Dockerize etmek için;
+*Containerize etmek için;
 
 docker build -t *tag name .
 
